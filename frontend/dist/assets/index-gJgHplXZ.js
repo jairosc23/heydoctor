@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-B5Qt9EMX.js";typeof window<"u"&&(window.OneSignal=window.OneSignal||[],OneSignal.push(function(){{console.warn("⚠️ VITE_ONESIGNAL_APP_ID no está definido en las variables de entorno");return}}));

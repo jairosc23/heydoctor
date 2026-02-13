@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HeyDoctor</title>
+
+  <link rel="manifest" href="/assets/manifest-V46mho0l.json" />
+  <link rel="apple-touch-icon" href="/assets/icon-192-B2qdKE0O.png" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+
+  <style>
+    body { margin:0; background:#f9fafb; font-family:'Open Sans'; }
+    .hero { text-align:center; padding:60px 20px; }
+    .hero h1 { color:#078a92; font-size:2.4rem; font-family:'Montserrat'; }
+    .btn {
+      display:inline-block; padding:14px 22px;
+      background:#078a92; color:white; border-radius:10px;
+      text-decoration:none; font-size:1.1rem; margin-top:12px;
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-gJgHplXZ.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
+</head>
+
+<body>
+
+  <section class="hero">
+    <img src="/assets/icon-192-B2qdKE0O.png" width="140" style="margin-bottom:30px;" />
+
+    <h1>Bienvenido a HeyDoctor</h1>
+    <p>Atención médica online y presencial en Viña del Mar.</p>
+
+    <a href="./login.html" class="btn">Ingresar</a>
+  </section>
+
+  <script>
+    // Limpia cualquier SW viejo
+    if ('serviceWorker' in navigator)
+      navigator.serviceWorker.getRegistrations().then(r => r.forEach(x => x.unregister()));
+  </script>
+
+
+</body>
+</html>

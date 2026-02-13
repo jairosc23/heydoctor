@@ -4,8 +4,8 @@
   "description": "Frontend oficial del ecosistema clínico y de telemedicina **HeyDoctor**, desarrollado por   **Dr. Jairo Santana – SAVAC MedTech LLC**.",
   "main": "index.js",
   "scripts": {
-    "dev": "vite public --host --open",
-    "build": "vite build public",
+    "dev": "vite --host --open",
+    "build": "vite build",
     "preview": "vite preview public --host --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
